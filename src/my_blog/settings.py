@@ -120,3 +120,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+# Create Static folder for all project
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static"),
+    'jetbrains://pycharm/navigate/reference?project=marketing&path=src/static',
+]
