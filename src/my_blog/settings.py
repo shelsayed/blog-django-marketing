@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 # Create Static folder for all project
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-    'jetbrains://pycharm/navigate/reference?project=marketing&path=src/static',
-]
+# STATICFILES_DIRS =
+#   os.path.join(BASE_DIR, "static"),
+#  'jetbrains://pycharm/navigate/reference?project=marketing&path=src/static',
+# ]
